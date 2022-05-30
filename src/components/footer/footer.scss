@@ -1,0 +1,16 @@
+.footer {
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 34px;
+
+  .container {
+    width: 1172px;
+    margin: 0 auto;
+    padding-top: 114px;
+    display: flex;
+  }
+
+  &__name {
+    margin-left: 55px;
+  }
+}

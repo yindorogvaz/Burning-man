@@ -1,0 +1,88 @@
+@import "src/assets/fonts/styles-fonts";
+
+.header {
+
+  background: url("./../../assets/images/header-bg.png") no-repeat center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    height: 900px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: 'Anton';
+    text-transform: uppercase;
+  }
+
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+  }
+
+  &__left {
+    display: flex;
+  }
+
+  &__logo {
+    width: 31px;
+    height: 48px;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    margin-left: 29px;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  &__item {
+    line-height: 21px;
+    font-size: 14px;
+    margin-left: 40px;
+  }
+
+  &__tel {
+    line-height: 27px;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+  }
+
+  &__tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 216px;
+  }
+
+  &__subtitle {
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+  }
+
+  &__title {
+    font-size: 100px;
+    line-height: 151px;
+  }
+
+  &__btn {
+    font-size: 17px;
+    line-height: 26px;
+    border: 1px solid #FFFFFF;
+    padding: 17px 52px;
+  }
+
+}
